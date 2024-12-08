@@ -1,0 +1,142 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-message {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #4CAF50;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #4CAF50;
+}
+
+.card p {
+    font-size: 14px;
+    color: #666;
+}
+
+.logout-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #e53935;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    margin: 20px auto;
+    transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+    background-color: #c62828;
+}
+
+.btn-create-post {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.btn-create-post:hover {
+    background-color: #0056b3;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.post-title {
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.post-title:hover {
+    text-decoration: underline;
+}
+
+small {
+    color: #777;
+}
